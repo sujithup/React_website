@@ -1,0 +1,392 @@
+ /* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(248, 246, 253);
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Inter", sans-serif;
+}
+
+.app {
+  width: 400px;
+  margin: 0 auto;
+  height: 100vh;
+}  */
+
+/* Contact.js */
+ .form {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #151E28!important;
+
+}
+
+.form > h1 {
+  margin-bottom: 30px;
+}
+
+.labeltext{
+  color: white!important;
+  font-family: 'Mulish'!important;
+}
+
+.center{
+  text-align: center;
+  color: white;
+  font-family: 'Mulish';
+  padding-top: 40px;
+}
+
+.form > input,
+textarea {
+  padding: 20px;
+  border-radius: 3px; 
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); 
+   margin-bottom: 20px
+  /* border: 1px solid lightgray; 
+  border: none; 
+  background: #fff;
+  font-size: 16px;
+  color: rgb(0, 0, 32);
+  outline: none; */
+}
+
+.form > input:focus,
+textarea:focus {
+  border: 1px solid rgb(0, 0, 196);
+}
+
+.form > textarea {
+  height: 150px;
+  max-width: 400px;
+  min-height: 100px;
+}
+
+.form > label {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: rgb(0, 0, 32);
+  font-weight: bold;
+}
+
+.form > button {
+  padding: 20px;
+  border: none;
+  background-color: rgb(2, 2, 110);
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+.form > button:hover {
+  background-color: rgb(0, 0, 196);
+} 
+
+.navbar {
+background: #151E28 !important;
+}
+
+.navbar-brand{
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+
+.nav-item{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-link:active{
+  color: #6369FF!important;
+}
+
+.nav-link:hover{
+  color: #6369FF!important;
+}
+
+.form-inline{
+  font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    padding-right: 20px;
+    padding: 6px;
+}
+
+.form-control{
+  background: #444B53 !important;
+  border: none !important;
+  color:#5A6168 !important;
+  padding-left: 40px!important;
+  }
+  
+  .navbar-toggler-icon{
+    border: red !important;
+    background-color:#444B53 !important;
+    
+  }
+
+  .h1{
+    font-family: Mulish !important; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+
+  }
+
+  .smallHeadings{
+    font-family: Mulish;
+    color: #7D7987;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    padding-bottom: 25px;
+  }
+
+  .mainHeadings{
+    font-family: Mulish;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    padding-top: 145px;
+    padding-bottom: 25px;
+    text-align: left;
+    max-width: 100%;
+  }
+
+/* .card{
+  background: #151E28!important;
+} */
+
+.custom{
+  margin-top: 40px;
+}
+
+.card-title{
+  font-family: Mulish!important;
+    color: black!important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    padding-bottom: 25px;
+  
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row{
+  background: #151E28!important;
+  /* height: 100%; */
+  padding-bottom: 10px;
+
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+/* .row::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+.stylebutton{
+  font-family: Mulish;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: white !important;
+  border-color:  #6369FF!important;
+  background-color: #6369FF;
+  width: 200px;
+  
+}
+
+.img-fluid{
+  padding-top: 50px;
+  padding-right: 0%;
+  margin-right: 0px;
+  text-align: right;
+}
+
+.btn{
+  font-family: Mulish !important;
+  border-color: #c97687 !important;
+  color: #FF6584 !important;
+}
+
+.btn1{
+  font-family: Mulish !important;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: white !important;
+  border-color:  #6369FF!important;
+  background-color: #6369FF !important;
+  width: 200px;
+  padding: 10px 30px;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.btn2{
+  font-family: Mulish !important;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: white !important;
+  
+  border:2px #6369FF !important;
+  border-color:  #6369FF !important;
+  background-color: #151E28 !important;
+  width: 200px;
+  padding: 10px 30px;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.container-fluid{
+  color: #151E28 !important;
+}
+
+
+.card-img-top1{
+height: 30%!important;
+width: auto!important;
+}
+
+.card{
+  /* width: 18rem !important; */
+  padding: 10px;
+  margin-left: 40px;
+  margin-right: 50px !important;
+
+  width: 80%;
+  height: 80%;
+   
+}
+
+/* .card:hover{
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 253) !important;
+  background: black;
+  color: white;
+  
+} */
+
+.card-body{
+  padding: 2% !important;
+  padding-bottom: 10% !important;
+}
+
+.card-text{
+  font-family: Mulish !important; 
+    color: black;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    padding-bottom: 10%;
+  
+}
+
+.card-text1{
+  font-family: Mulish !important; 
+    color: grey;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+  
+}
+
+.card-img-top{
+  height: 50% !important;
+  padding-top: 10%;
+}
+
+.h2{
+  font-family: Mulish !important;
+  font-style: normal;
+  font-size: 24px !important;
+  color: white!important;
+  text-align: left !important;
+}
+
+.card-title{
+  font-family: Mulish !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  text-align: center !important;
+  line-height: 56px;
+  align-content: center;
+}
+
+.grid {
+  padding: 10%;
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  position: relative;
+  margin: 0cm;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo{
+  height: 250px;
+  width: 200px;
+  margin-left: 10%;
+  margin-top: 5%;
+  align-items: center;
+}
+
+
+/* .grid > div {
+  flex-basis: calc(50% - 40px);
+} */
